@@ -113,22 +113,22 @@ function moveBackward() {
 //List of Commands
 
 function commands(command) {
-	for (var i = 0; i < command.length; i++) {
-		switch (command[i]) {
-			case 'b':
-				moveBackward();
-				break;
+  for (var i = 0; i < command.length; i++) {
+    switch (command[i]) {
+      case 'b':
+	moveBackward();
+	break;
 
-			case 'f':
-				moveForward();
-				break;
+      case 'f':
+	moveForward();
+	break;
 
-			case 'r':
-				turnRight();
-				break;
+      case 'r':
+	turnRight();
+	break;
 
-			case 'l':
-				turnLeft();
+      case 'l':
+	turnLeft();
         break;
         
       default:
